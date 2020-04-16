@@ -20,7 +20,7 @@ p{
 }
 
 .MuiLinearProgress-root {
-    height: 18px!important;
+    height: 22px!important;
     overflow: hidden;
     position: relative;
 }

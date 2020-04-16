@@ -3,6 +3,12 @@ import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import './home.css';
 import About from '../about/about';
+import NProgress from "nprogress";
+import Router from "next/router";
+
+Router.onRouteChangeStart = url => NProgress.start();
+Router.onRouteChangeComplete = url => NProgress.done();
+Router.onRouteChangeError = url => NProgress.done();
 
 
 

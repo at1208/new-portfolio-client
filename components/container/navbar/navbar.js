@@ -8,19 +8,19 @@ const Navbar = () => {
                <div className='row justify-content-center'>
 
                 <Link href='/'>
-                   <a><Button className='m-1' size="large" type='link'>ABOUT</Button></a>
+                   <a><Button className='' size="large" type='link'>ABOUT</Button></a>
                 </Link>
 
                 <Link href='/portfolio'>
-                  <a><Button className='m-1' size="large" type='link'>PORTFOLIO</Button></a>
+                  <a><Button className='' size="large" type='link'>PORTFOLIO</Button></a>
                 </Link>
 
                 <Link href='/blog'>
-                  <a><Button className='m-1' size="large" type='link'>BLOG</Button></a>
+                  <a><Button className='' size="large" type='link'>BLOG</Button></a>
                 </Link>
 
                 <Link href='/contact'>
-                 <a><Button className='m-1' size="large" type='link'>CONTACT</Button></a>
+                 <a><Button className='' size="large" type='link'>CONTACT</Button></a>
                 </Link>
 
                </div>

@@ -6,7 +6,7 @@ import './about.css';
 const About = () => {
   return <React.Fragment>
             <div className='about'>
-              <Navbar />
+       
               <h1 className='text-center mt-3'>ABOUT</h1>
               <div className='container-fluid'>
                  <div className='row col justify-content-center'>
@@ -18,7 +18,7 @@ const About = () => {
                           <p> I have serious passion for programming since last 2 years</p>
                         </div>
                     </div>
-                    <div className='col-md-5 m-1'>
+                    <div className='col-md-5'>
                     <div className='container-fluid'>
                         <SkillBar />
                     </div>

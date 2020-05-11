@@ -1,7 +1,7 @@
-const Home = () => {
+const Portfolio = () => {
   return <React.Fragment>
 
          </React.Fragment>
 }
 
-export default Home;
+export default Portfolio;

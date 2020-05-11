@@ -1,7 +1,7 @@
-const Home = () => {
+const Blog = () => {
   return <React.Fragment>
 
          </React.Fragment>
 }
 
-export default Home;
+export default Blog;

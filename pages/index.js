@@ -1,7 +1,10 @@
-const Home = () => {
-  return <React.Fragment>
+import Home from '../components/home/home'
 
+
+const Index = () => {
+  return <React.Fragment>
+           <Home />
          </React.Fragment>
 }
 
-export default Home;
+export default Index;
